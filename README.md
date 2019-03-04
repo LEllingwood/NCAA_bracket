@@ -1,1 +1,1 @@
-68 of 351 Division 1 Men's Basketball teams are chosen for the 
+From a pool of 351, 68 Men's Division 1 Basketball teams participate in the March Madness college basketball tournament.  Those teams are selected by various methods, whether winning their division or being chosen by the 10 member selection committee.  
