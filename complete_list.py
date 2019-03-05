@@ -1,4 +1,4 @@
-"""Team_name , NCAARank, Conference, Location, Location_score, Team-colors, color_score, TeamMascot, Mascot_score, predicted_pairing"""
+"""Team_name , NCAARank, Conference, Location, Location_score, Team-colors, color_score, TeamMascot, Mascot_score"""
 
 # 1 - best, 5 - worst
 
@@ -9,145 +9,146 @@
 
 import csv
 
-with open('team_locations.csv', 'w', newline='') as f:
-    thewriter = csv.writer(f)
+with open('complete_list.csv', 'w') as complete_list:
+    fieldnames = {'School', 'NCAA Rank', 'Conference', 'Location', 'Location Rank', 'Colors', 'Color Rank', 'Mascot', 'Mascot Rank', 'Unique Id'}
 
-    thewriter.writerow(['team_name', 'NCAA_rank', 'conference', 'location', 'location_score', 'team_colors', 'color_score', 'mascot', 'mascot_score', 'predicted_pairing'])
+    csv_writer = csv.DictWriter(complete_list, fieldnames=fieldnames)
+    csv_writer.writeheader()
 
-    thewriter.writerow(['Gonzaga', '1', 'West', 'Spokane, Washington', '2', 'Blue, Red', '2',  'Bulldogs', '1', 'Sam Houston St.'])
+    csv_writer.writerow({'School': 'Gonzaga', 'NCAA Rank': '1', 'Conference': 'West', 'Location': 'Spokane, Washington', 'Location Rank': '2', 'Colors': 'Blue / Red', 'Color Rank': '2', 'Mascot': 'Bulldogs', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Duke', '1', 'East', 'Durham, North Carolina', '3', 'Blue, Dark Blue', '2', 'Blue Devils', '4', 'Bucknell'])
+    csv_writer.writerow({'School': 'Duke', 'NCAA Rank': '1', 'Conference': 'East', 'Location': 'Durham, North Carolina', 'Location Rank': '3', 'Colors': 'Blue / Dark Blue', 'Color Rank': '2', 'Mascot': 'Blue Devils', 'Mascot Rank': '4', 'Unique Id': " "})
 
-    thewriter.writerow(['Virginia', '1', 'South', 'Charlottesville, Virginia', '3', 'Blue, Orange', '2', 'Cavaliers', '5', 'St. Francis/Iona'])
+    csv_writer.writerow({'School': 'Virginia', 'NCAA Rank': '1', 'Conference': 'South', 'Location': 'Charlottesville, Virginia', 'Location Rank': '3', 'Colors': 'Blue / Orange', 'Color Rank': '2', 'Mascot': 'Cavaliers', 'Mascot Rank': '5', 'Unique Id': " ", 'Unique Id': " "})
 
-    thewriter.writerow(['Kentucky', '1', 'Midwest', 'Lexington, Kentucky', '2', 'Blue, White', '3', 'Wildcats', '1', 'Prairie View/Norfolk St.'])
+    csv_writer.writerow({'School': 'Kentucky', 'NCAA Rank': '1', 'Conference': 'Midwest', 'Location': 'Lexington, Kentucky', 'Location Rank': '2', 'Colors': 'Blue / White', 'Color Rank': '3', 'Mascot': 'Wildcats', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Tennessee', '2', 'South', 'Knoxville, Tennessee', '4', 'Orange, White', '3', 'Volunteers', '5', 'Radford'])
+    csv_writer.writerow({'School': 'Tennessee', 'NCAA Rank': '2', 'Conference': 'South', 'Location': 'Knoxville, Tennessee', 'Location Rank': '4', 'Colors': 'Orange / White', 'Color Rank': '3', 'Mascot': 'Volunteers', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['North Carolina', '2', 'Midwest', 'Chapel Hill, North Carolina', '2', 'Light Blue, White', '4', 'Tar Heels', '5', 'Loyola-Chicago'])
+    csv_writer.writerow({'School': 'North Carolina', 'NCAA Rank': '2', 'Conference': 'Midwest', 'Location': 'Chapel Hill, North Carolina', 'Location Rank': '2', 'Colors': 'Light Blue / White', 'Color Rank': '4', 'Mascot': 'Tar Heels', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Michian State', '2', 'East', 'East Lansing, Michigan', '5', 'Green, White', '5', 'Spartans', '5', 'Wright St.'])
+    csv_writer.writerow({'School': 'Michian State', 'NCAA Rank': '2', 'Conference': 'East', 'Location': 'East Lansing, Michigan', 'Location Rank': '5', 'Colors': 'Green / White', 'Color Rank': '5', 'Mascot': 'Spartans', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Michigan', '2', 'West', 'Ann Arbor, Michigan', '1', 'Yellow, Blue', '2', 'Wolverines', '1', 'Texas St.'])
+    csv_writer.writerow({'School': 'Michigan', 'NCAA Rank': '2', 'Conference': 'West', 'Location': 'Ann Arbor, Michigan', 'Location Rank': '1', 'Colors': 'Blue / Yellow', 'Color Rank': '2', 'Mascot': 'Wolverines', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Houston', '3', 'Midwest', 'Houston, Texas', '2', 'Red, Dark Red', '4', 'Cougars', '2', 'UC Irvine'])
+    csv_writer.writerow({'School': 'Houston', 'NCAA Rank': '3', 'Conference': 'Midwest', 'Location': 'Houston, Texas', 'Location Rank': '2', 'Colors': 'Red / Dark Red', 'Color Rank': '4', 'Mascot': 'Cougars', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Purdue', '3', 'South', 'West Lafayette, Indiana', '5', 'Black, Gold', '3', 'Boilermaker', '4', 'S. Dakota St.'])
+    csv_writer.writerow({'School': 'Purdue', 'NCAA Rank': '3', 'Conference': 'South', 'Location': 'West Lafayette, Indiana', 'Location Rank': '5', 'Colors': 'Black / Gold', 'Color Rank': '3', 'Mascot': 'Boilermaker', 'Mascot Rank': '4', 'Unique Id': " "})
 
-    thewriter.writerow(['Marquette', '3', 'Easts', 'Milwaukee, Wisconsin', '5', 'Blue, Yellow', '2', 'Golden Eagles', '3', 'Vermont'])
+    csv_writer.writerow({'School': 'Marquette', 'NCAA Rank': '3', 'Conference': 'East', 'Location': 'Milwaukee, Wisconsin', 'Location Rank': '5', 'Colors': 'Blue / Yellow', 'Color Rank': '2', 'Mascot': 'Golden Eagles', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(['Kansas', '3', 'West', 'Lawrence, Kansas', '5', 'Blue, Red', '2', 'Jayhawks', '4', 'Montana'])
+    csv_writer.writerow({'School': 'Kansas', 'NCAA Rank': '3', 'Conference': 'West', 'Location': 'Lawrence, Kansas', 'Location Rank': '5', 'Colors': 'Blue / Red', 'Color Rank': '2', 'Mascot': 'Jayhawks', 'Mascot Rank': '4', 'Unique Id': " "})
 
-    thewriter.writerow(['LSU', '4', ' West', 'Baton Rouge, Louisiana', '3', 'Purple, Gold', '1', 'Tigers', '2', 'Lipscomb'])
+    csv_writer.writerow({'School': 'LSU', 'NCAA Rank': '4', 'Conference': 'West', 'Location': 'Baton Rouge, Louisiana', 'Location Rank': '3', 'Colors': 'Purple / Gold', 'Color Rank': '1', 'Mascot': 'Tigers', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Maryland', '4', 'Midwest', 'College Park, Maryland', '4', 'Red, Gold', '4', 'Terrapin', '5', 'Hofstra'])
+    csv_writer.writerow({'School': 'Maryland', 'NCAA Rank': '4', 'Conference': 'Midwest', 'Location': 'College Park, Maryland', 'Location Rank': '4', 'Colors': 'Red / Gold', 'Color Rank': '4', 'Mascot':  'Terrapin', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Texas Tech', '4', 'South', 'Lubbock, Texas', '4', 'Red, Black', '3', 'Red Raiders', '5', 'Old Dominion'])
+    csv_writer.writerow({'School': 'Texas Tech', 'NCAA Rank': '4', 'Conference': 'South', 'Location': 'Lubbock, Texas', 'Location Rank': '4', 'Colors': 'Red / Black', 'Color Rank': '3', 'Mascot': 'Red Raiders', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Nevada', '4', 'East', 'Reno, Nevada', '3', 'Blue, Grey', '2', 'Wolf Pack', '1', ' Yale'])
+    csv_writer.writerow({'School': 'Nevada', 'NCAA Rank': '4', 'Conference': 'East', 'Location': 'Reno, Nevada', 'Location Rank': '3', 'Colors': 'Blue / Grey', 'Color Rank': '2', 'Mascot':  'Wolf Pack', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Kansas State', '5', 'Midwest', 'Manhattan, Kansas', '5', 'Purple, Grey', '1', 'Wildcats', '1', 'Auburn/Clemson'])
+    csv_writer.writerow({'School': 'Kansas State', 'NCAA Rank': '5', 'Conference': 'Midwest', 'Location': 'Manhattan, Kansas', 'Location Rank': '5', 'Colors': 'Purple / Grey', 'Color Rank': '1', 'Mascot':  'Wildcats', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Iowa State', '5', 'East', 'Ames, Iowa', '4', 'Red, Gold', '5', 'Cyclones', '5', 'Ohio St./Alabama'])
+    csv_writer.writerow({'School': 'Iowa State', 'NCAA Rank': '5', 'Conference': 'East', 'Location': 'Ames, Iowa', 'Location Rank': '4', 'Colors': 'Red / Gold', 'Color Rank': '5', 'Mascot': 'Cyclones', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Florida State', '5', 'West', 'Tallahassee, Florida', '4', 'Red, Gold', '5', 'Seminoles', '5', 'Belmont'])
+    csv_writer.writerow({'School': 'Florida State', 'NCAA Rank': '5', 'Conference': 'West', 'Location': 'Tallahassee, Florida', 'Location Rank': '4', 'Colors': 'Red / Gold', 'Color Rank': '5', 'Mascot': 'Seminoles', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Wisconsin', '5', 'South', 'Madison, Wisconsin', '5', 'Red, Dark Red', '4', 'Badgers', '2', 'New Mexico St.'])
+    csv_writer.writerow({'School': 'Wisconsin', 'NCAA Rank': '5', 'Conference': 'South', 'Location': 'Madison, Wisconsin', 'Location Rank': '5', 'Colors': 'Red / Dark Red', 'Color Rank': '4', 'Mascot': 'Badgers', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Virginia Tech', '6', 'East', 'Blacksburg, Virginia', '3','Red Orange', '3', 'Hokies', '5', 'Minnesota'])
+    csv_writer.writerow({'School': 'Virginia Tech', 'NCAA Rank': '6', 'Conference': 'East', 'Location': 'Blacksburg, Virginia', 'Location Rank': '3', 'Colors': 'Red / Orange', 'Color Rank': '3', 'Mascot': 'Hokies', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Iowa', '6', 'Midwest', 'Iowa City, Iowa', '3', 'Black, Gold', '3', 'Hawkeyes', '2', 'Arizona St.'])
+    csv_writer.writerow({'School': 'Iowa', 'NCAA Rank': '6', 'Conference': 'Midwest', 'Location': 'Iowa City, Iowa', 'Location Rank': '3', 'Colors': 'Black / Gold', 'Color Rank': '3', 'Mascot': 'Hawkeyes', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Cincinnati', '6', 'South', 'Cincinnati, Ohio', '5', 'Red, Black', '3', 'Bearcats', '3', 'Seton Hall'])
+    csv_writer.writerow({'School': 'Cincinnati', 'NCAA Rank': '6', 'Conference': 'South', 'Location': 'Cincinnati, Ohio', 'Location Rank': '5', 'Colors': 'Red / Black', 'Color Rank': '3', 'Mascot': 'Bearcats', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(['Buffalo', '6', 'West', 'Buffalo, New York', '5', 'Blue, White', '4', 'Bulls', '3', 'Florida'])
+    csv_writer.writerow({'School': 'Buffalo', 'NCAA Rank': '6', 'Conference': 'West', 'Location': 'Buffalo, New York', 'Location Rank': '5', 'Colors': 'Blue / White', 'Color Rank': '4', 'Mascot': 'Bulls', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(['Washington', '7', 'West', 'Seattle, Washington', '1', 'Purple, Gold', '1', 'Huskies', '1', 'Wofford'])
+    csv_writer.writerow({'School': 'Washington', 'NCAA Rank': '7', 'Conference': 'West', 'Location': 'Seattle, Washington', 'Location Rank': '1', 'Colors': 'Purple / Gold', 'Color Rank': '1', 'Mascot': 'Huskies', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Baylor', '7', 'East', 'Waco, Texas', '5', 'Green, Gold', '5', 'Bears', '4', 'UCF'])
+    csv_writer.writerow({'School': 'Baylor', 'NCAA Rank': '7', 'Conference': 'East', 'Location': 'Waco, Texas', 'Location Rank': '5', 'Colors': 'Green / Gold', 'Color Rank': '5', 'Mascot': 'Bears', 'Mascot Rank': '4', 'Unique Id': " "})
 
-    thewriter.writerow(['Villanova', '7', 'Midwest', 'Villanova, Pennsylvania', '4', 'Blue, Light Blue', '4', 'Wildcats', '1', 'TCU'])
+    csv_writer.writerow({'School': 'Villanova', 'NCAA Rank': '7', 'Conference': 'Midwest', 'Location': 'Villanova, Pennsylvania', 'Location Rank': '4', 'Colors': 'Blue / Light Blue', 'Color Rank': '4', 'Mascot': 'Wildcats', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Syracuse', '7', 'South', 'Syracuse, New York', '3', 'Orange, Grey', '1', 'Orange', '5', 'Texas'])
+    csv_writer.writerow({'School': 'Syracuse', 'NCAA Rank': '7', 'Conference': 'South', 'Location': 'Syracuse, New York', 'Location Rank': '3', 'Colors': 'Orange / Grey', 'Color Rank': '1', 'Mascot': 'Orange', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Mississippi State', '8', 'South', 'Starkville, Mississippi', '5', 'Red, White', '5', 'Bulldogs', '1', 'Temple'])
+    csv_writer.writerow({'School': 'Mississippi State', 'NCAA Rank': '8', 'Conference': 'South', 'Location': 'Starkville, Mississippi', 'Location Rank': '5', 'Colors': 'Red / White', 'Color Rank': '5', 'Mascot': 'Bulldogs', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Louisville', '8', 'Midwest', 'Louisville, Kentucky', '3', 'Black, Red', '3', 'Cardinals', '3', 'Oklahoma'])
+    csv_writer.writerow({'School': 'Louisville', 'NCAA Rank': '8', 'Conference': 'Midwest', 'Location': 'Louisville, Kentucky', 'Location Rank': '3', 'Colors': 'Black / Red', 'Color Rank': '3', 'Mascot': 'Cardinals', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(["St. John's", '8', 'West', 'New York City, New York', '1', 'Red, Blue', '2', 'Red Storm', '5', 'NC St.'])
+    csv_writer.writerow({'School': "St. John's", 'NCAA Rank': '8', 'Conference': 'West', 'Location': 'New York City, New York', 'Location Rank': '1', 'Colors': 'Red / Blue', 'Color Rank': '2', 'Mascot': 'Red Storm', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Ole Miss', '8', 'East', 'Oxford, Mississippi', '5', 'Red, Blue', '2', 'Rebels', '5', 'VCU'])
+    csv_writer.writerow({'School': 'Ole Miss', 'NCAA Rank': '8', 'Conference': 'East', 'Location': 'Oxford, Mississippi', 'Location Rank': '5', 'Colors': 'Red / Blue', 'Color Rank': '2', 'Mascot': 'Rebels', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Oklahoma', '9', 'Midwest', 'Norman, Oklahoma', '5', 'Red, Cream', '4', 'Sooners', '5', 'Louisville'])
+    csv_writer.writerow({'School': 'Oklahoma', 'NCAA Rank': '9', 'Conference': 'Midwest', 'Location': 'Norman, Oklahoma', 'Location Rank': '5', 'Colors': 'Red / Cream', 'Color Rank': '4', 'Mascot': 'Sooners', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['NC State', '9', 'West', 'Raleigh, North Carolina'], '2', 'Red, Black', '3', 'Wolfpack', '1', "St. John's")
+    csv_writer.writerow({'School': 'NC State', 'NCAA Rank': '9', 'Conference': 'West', 'Location': 'Raleigh, North Carolina', 'Location Rank': '2', 'Colors': 'Red / Black', 'Color Rank': '3', 'Mascot': 'Wolfpack', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['VCU', '9', 'East', 'Richmond, Virginia', '2', 'Black, Gold', '3', 'Rams', '3', 'Ole Miss'])
+    csv_writer.writerow({'School': 'VCU', 'NCAA Rank': '9', 'Conference': 'East', 'Location': 'Richmond, Virginia', 'Location Rank': '2', 'Colors': 'Black / Gold', 'Color Rank': '3', 'Mascot': 'Rams', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(['Temple', '9', 'South', 'Philadelphia, Pennsylvania', '4', 'Red, Yellow', '5', 'Owls', '3', 'Mississippi St.'])
+    csv_writer.writerow({'School': 'Temple', 'NCAA Rank': '9', 'Conference': 'South', 'Location': 'Philadelphia, Pennsylvania', 'Location Rank': '4', 'Colors': 'Red / Yellow', 'Color Rank': '5', 'Mascot': 'Owls', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(['UCF', '10', 'East', 'Orlando, Florida', '3', 'Black, Gold', '3', 'Knights', '5', 'Baylor'])
+    csv_writer.writerow({'School': 'UCF', 'NCAA Rank': '10', 'Conference': 'East', 'Location': 'Orlando, Florida', 'Location Rank': '3', 'Colors': 'Black / Gold', 'Color Rank': '3', 'Mascot': 'Knights', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['TCU', '10', 'Midwest' 'Fort Worth, Texas', '3', 'Purple, White', '2', 'Horned Frogs', '2', 'Villanova'])
+    csv_writer.writerow({'School': 'TCU', 'NCAA Rank': '10', 'Conference': 'Midwest', 'Location': 'Fort Worth, Texas', 'Location Rank': '3', 'Colors': 'Purple / White', 'Color Rank': '2', 'Mascot': 'Horned Frogs', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Wofford', '10', 'West', 'Spartanburg, South Carolina', '3', 'Black, Gold', '3', 'Terriers', '4', 'Washington'])
+    csv_writer.writerow({'School': 'Wofford', 'NCAA Rank': '10', 'Conference': 'West', 'Location': 'Spartanburg, South Carolina', 'Location Rank': '3', 'Colors': 'Black / Gold', 'Color Rank': '3', 'Mascot': 'Terriers', 'Mascot Rank': '4', 'Unique Id': " "})
 
-    thewriter.writerow(['Texas', '10', 'South', 'Austin, Texas', '1', 'Orange, Grey', '1', 'Longhorns', '2', 'Syracuse'])
+    csv_writer.writerow({'School': 'Texas', 'NCAA Rank': '10', 'Conference': 'South', 'Location': 'Austin, Texas', 'Location Rank': '1', 'Colors': 'Orange / Grey', 'Color Rank': '1', 'Mascot': 'Longhorns', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Florida', '11', 'West', 'Gainesville, Florida', '5', 'Blue, Orange', '1', 'Gators', '2', 'Buffalo'])
+    csv_writer.writerow({'School': 'Florida', 'NCAA Rank': '11', 'Conference': 'West', 'Location': 'Gainesville, Florida', 'Location Rank': '5', 'Colors': 'Blue / Orange', 'Color Rank': '1', 'Mascot': 'Gators', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Arizona State', '11', 'Midwest','Tempe, Arizona', '2', 'Red, Gold', '5', 'Sun Devils', '4', 'Iowa'])
+    csv_writer.writerow({'School': 'Arizona State', 'NCAA Rank': '11', 'Conference': 'Midwest', 'Location': 'Tempe, Arizona', 'Location Rank': '2', 'Colors': 'Red / Gold', 'Color Rank': '5', 'Mascot': 'Sun Devils', 'Mascot Rank': '4', 'Unique Id': " "})
 
-    thewriter.writerow(['Seton Hall', '11', 'South', 'Newark, New Jersey', '5', 'Blue, Grey', '1', 'Pirates', '5', 'Cincinnati'])
+    csv_writer.writerow({'School': 'Seton Hall', 'NCAA Rank': '11', 'Conference': 'South', 'Location': 'Newark, New Jersey', 'Location Rank': '5', 'Colors': 'Blue / Grey', 'Color Rank': '1', 'Mascot': 'Pirates', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Minnesota', '11', 'East', 'Minneapolis, Minnesota', '5', 'Red, Yellow', '5', 'Golden Gophers', '2', 'Virginia Tech'])
+    csv_writer.writerow({'School': 'Minnesota', 'NCAA Rank': '11', 'Conference': 'East', 'Location': 'Minneapolis, Minnesota', 'Location Rank': '5', 'Colors': 'Red / Yellow', 'Color Rank': '5', 'Mascot': 'Golden Gophers', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Ohio State', '12', 'East', 'Columbus, Ohio', '4', 'Red, Grey', '3', 'Buckeyes', '4', 'Iowa St.'])
+    csv_writer.writerow({'School': 'Ohio State', 'NCAA Rank': '12', 'Conference': 'East', 'Location': 'Columbus, Ohio', 'Location Rank': '4', 'Colors': 'Red / Grey', 'Color Rank': '3', 'Mascot': 'Buckeyes', 'Mascot Rank': '4', 'Unique Id': " "})
 
-    thewriter.writerow(['Alabama', '12', 'East', 'Tuscaloosa, Alabama', '5', 'Red, Grey', '3', 'Crimson Tide', '5', 'Iowa St.'])
+    csv_writer.writerow({'School': 'Alabama', 'NCAA Rank': '12', 'Conference': 'East', 'Location': 'Tuscaloosa, Alabama', 'Location Rank': '5', 'Colors': 'Red / Grey', 'Color Rank': '3', 'Mascot': 'Crimson Tide', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Auburn', '12', 'Midwest', 'Auburn, Alabama', '5', 'Blue, Orange', '1', 'Tigers', '1', 'Kansas St.'])
+    csv_writer.writerow({'School': 'Auburn', 'NCAA Rank': '12', 'Conference': 'Midwest', 'Location': 'Auburn, Alabama', 'Location Rank': '5', 'Colors': 'Blue / Orange', 'Color Rank': '1', 'Mascot': 'Tigers', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Clemson', '12', 'Midwest', 'Clemson, South Carolina', '3', 'Orange, Purple', '1', 'Tigers', '1', 'Kansas St.'])
+    csv_writer.writerow({'School': 'Clemson', 'NCAA Rank': '12', 'Conference': 'Midwest', 'Location': 'Clemson, South Carolina', 'Location Rank': '3', 'Colors': 'Orange / Purple', 'Color Rank': '1', 'Mascot': 'Tigers', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Belmont', '12', 'West', 'Nashville, Tennessee', '2', 'Blue, Red', '2', 'Bruins', '5', 'Florida St.'])
+    csv_writer.writerow({'School': 'Belmont', 'NCAA Rank': '12', 'Conference': 'West', 'Location': 'Nashville, Tennessee', 'Location Rank': '2', 'Colors': 'Blue / Red', 'Color Rank': '2', 'Mascot': 'Bruins', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['New Mexico State', '12', 'South', 'Las Cruces, New Mexico', '2', 'Red, White', '5', 'Aggies', '4', 'Wisconsin'])
+    csv_writer.writerow({'School': 'New Mexico State', 'NCAA Rank': '12', 'Conference': 'South', 'Location': 'Las Cruces, New Mexico', 'Location Rank': '2', 'Colors': 'Red / White', 'Color Rank': '5', 'Mascot': 'Aggies', 'Mascot Rank': '4', 'Unique Id': " "})
 
-    thewriter.writerow(['Lipscomb', '13', 'West', 'Nashville, Tennessee', '2', 'Purple, Gold', '1', 'Bisons', '3', 'LSU'])
+    csv_writer.writerow({'School': 'Lipscomb', 'NCAA Rank': '13', 'Conference': 'West', 'Location': 'Nashville, Tennessee', 'Location Rank': '2', 'Colors': 'Purple / Gold', 'Color Rank': '1', 'Mascot': 'Bisons', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(['Hofstra', '13', 'Midwest', 'Hempstead, New York', '3', 'Blue, Gold', '2', 'Pride', '3', 'Maryland'])
+    csv_writer.writerow({'School': 'Hofstra', 'NCAA Rank': '13', 'Conference': 'Midwest', 'Location': 'Hempstead, New York', 'Location Rank': '3', 'Colors': 'Blue / Gold', 'Color Rank': '2', 'Mascot': 'Pride', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(['Yale', '13', 'East', 'New Haven, Connecticut', '3', 'Blue, White', '5', 'Bulldogs', '1', 'Nevada'])
+    csv_writer.writerow({'School': 'Yale', 'NCAA Rank': '13', 'Conference': 'East', 'Location': 'New Haven, Connecticut', 'Location Rank': '3', 'Colors': 'Blue / White', 'Color Rank': '5', 'Mascot': 'Bulldogs', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Old Dominion', '13', 'South', 'Norfolk, Virginia', '3', 'Blue, Grey', '1', 'Monarchs', '5', 'Texas Tech'])
+    csv_writer.writerow({'School': 'Old Dominion', 'NCAA Rank': '13', 'Conference': 'South', 'Location': 'Norfolk, Virginia', 'Location Rank': '3', 'Colors': 'Blue / Grey', 'Color Rank': '1', 'Mascot': 'Monarchs', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Vermont', '14', 'East', 'Burlington, Vermont', '3', 'Green, Gold', '5', 'Catamounts', '5', 'Marquette'])
+    csv_writer.writerow({'School': 'Vermont', 'NCAA Rank': '14', 'Conference': 'East', 'Location': 'Burlington, Vermont', 'Location Rank': '3', 'Colors': 'Green / Gold', 'Color Rank': '5', 'Mascot': 'Catamounts', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['UC Irvine', '14', 'Midwest', 'Irvine, California', '1', 'Blue, Gold', '2', 'Anteaters', '1', 'Houston'])
+    csv_writer.writerow({'School': 'UC Irvine', 'NCAA Rank': '14', 'Conference': 'Midwest', 'Location': 'Irvine, California', 'Location Rank': '1', 'Colors': 'Blue / Gold', 'Color Rank': '2', 'Mascot': 'Anteaters', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['South Dakota State', '14', 'South', 'Brookings, South Dakota', '4', 'Blue, Yellow', '2', 'Jackrabbits', '2', 'Purdue'])
+    csv_writer.writerow({'School': 'South Dakota State', 'NCAA Rank': '14', 'Conference': 'South', 'Location': 'Brookings, South Dakota', 'Location Rank': '4', 'Colors': 'Blue / Yellow', 'Color Rank': '2', 'Mascot': 'Jackrabbits', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Montana', '14', 'West', 'Missoula, Montana', '2', 'Red, Grey', '3', 'Grizzles', '3', 'Kansas'])
+    csv_writer.writerow({'School': 'Montana', 'NCAA Rank': '14', 'Conference': 'West', 'Location': 'Missoula, Montana', 'Location Rank': '2', 'Colors': 'Red / Grey', 'Color Rank': '3', 'Mascot': 'Grizzles', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(['Texas State', '15', 'West', 'San Marcos, Texas', '4', 'Red, Gold', '5', 'Bobcats', '1', 'Michigan'])
+    csv_writer.writerow({'School': 'Texas State', 'NCAA Rank': '15', 'Conference': 'West', 'Location': 'San Marcos, Texas', 'Location Rank': '4', 'Colors': 'Red / Gold', 'Color Rank': '5', 'Mascot': 'Bobcats', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Wright State', '15', 'East', 'Fairborn, Ohio', '4', 'Green, Gold', '5', 'Raiders', '5', 'Michigan St.'])
+    csv_writer.writerow({'School': 'Wright State', 'NCAA Rank': '15', 'Conference': 'East', 'Location': 'Fairborn, Ohio', 'Location Rank': '4', 'Colors': 'Green / Gold', 'Color Rank': '5', 'Mascot': 'Raiders', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Loyola-Chicago', '15', 'Midwest', 'Chicago, Illinois', '4', 'Red, Gold', '5', 'Ramblers', '5', 'North Carolina'])
+    csv_writer.writerow({'School': 'Loyola-Chicago', 'NCAA Rank': '15', 'Conference': 'Midwest', 'Location': 'Chicago, Illinois', 'Location Rank': '4', 'Colors': 'Red / Gold', 'Color Rank': '5', 'Mascot': 'Ramblers', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Radford', '15' 'South', 'Radford, Virginia', '3', 'Red, White', '5', 'Highlanders', '4', 'Tennessee'])
+    csv_writer.writerow({'School': 'Radford', 'NCAA Rank': '15', 'Conference': 'South', 'Location': 'Radford, Virginia', 'Location Rank': '3', 'Colors': 'Red / White', 'Color Rank': '5', 'Mascot': 'Highlanders', 'Mascot Rank': '4', 'Unique Id': " "})
 
-    thewriter.writerow(['Bucknell', '16', 'East', 'Lewisburg, Pennsylvania', '4', 'Red, White', '5', 'Bison', '3', 'Duke'])
+    csv_writer.writerow({'School': 'Bucknell', 'NCAA Rank': '16', 'Conference': 'East', 'Location': 'Lewisburg, Pennsylvania', 'Location Rank': '4', 'Colors': 'Red / White', 'Color Rank': '5', 'Mascot': 'Bison', 'Mascot Rank': '3', 'Unique Id': " "})
 
-    thewriter.writerow(['Sam Houston State', '16', 'West', 'Huntsville, Texas', '3', 'Orange, White', '3', 'Bearkats', '2', 'Gonzaga'])
+    csv_writer.writerow({'School': 'Sam Houston State', 'NCAA Rank': '16', 'Conference': 'West', 'Location': 'Huntsville, Texas', 'Location Rank': '3', 'Colors': 'Orange / White', 'Color Rank': '3', 'Mascot': 'Bearkats', 'Mascot Rank': '2', 'Unique Id': " "})
 
-    thewriter.writerow(['Prairie View', '16', 'Midwest','Prairie View, Texas', '5', 'Purple, Gold', '2', 'Panthers', '1', 'Kentucky'])
+    csv_writer.writerow({'School': 'Prairie View', 'NCAA Rank': '16', 'Conference': 'Midwest', 'Location': 'Prairie View, Texas', 'Location Rank': '5', 'Colors': 'Purple / Gold', 'Color Rank': '2', 'Mascot': 'Panthers', 'Mascot Rank': '1', 'Unique Id': " "})
 
-    thewriter.writerow(['Norfolk State', '16', 'Midwest', 'Norfolk, Virginia', '4', 'Green, Gold', '5', 'Spartans', '5', 'Kentucky'])
+    csv_writer.writerow({'School': 'Norfolk State', 'NCAA Rank': '16', 'Conference': 'Midwest', 'Location': 'Norfolk, Virginia', 'Location Rank': '4', 'Colors': 'Green / Gold', 'Color Rank': '5', 'Mascot': 'Spartans', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['St. Francis PA', '16', 'South', 'Loretta, Pennslyvania', '5', 'Red, White', '5', 'Red Flash', '5', 'Virginia'])
+    csv_writer.writerow({'School': 'St. Francis PA', 'NCAA Rank': '16', 'Conference': 'South', 'Location': 'Loretta, Pennslyvania', 'Location Rank': '5', 'Colors': 'Red / White', 'Color Rank': '5', 'Mascot': 'Red Flash', 'Mascot Rank': '5', 'Unique Id': " "})
 
-    thewriter.writerow(['Iona', '16', 'South', 'New Rochelle, NY', '3', 'Red, Gold', '5', 'Gaels', '4', 'Virginia'])
+    csv_writer.writerow({'School': 'Iona', 'NCAA Rank': '16', 'Conference': 'South', 'Location': 'New Rochelle, NY', 'Location Rank': '3', 'Colors': 'Red / Gold', 'Color Rank': '5', 'Mascot': 'Gaels', 'Mascot Rank': '4', 'Unique Id': " "})
 
 
