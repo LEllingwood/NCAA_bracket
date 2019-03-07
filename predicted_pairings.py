@@ -27,7 +27,7 @@ with open('predicted_pairings.csv', 'w') as pairings_file:
     csv_writer.writerow({'School 1': 'Nevada', 'School 2': 'Yale'})
 
     csv_writer.writerow({'School 1': 'Kansas State', 'School 2': 'Auburn/Clemson'})
-    csv_writer.writerow({'School 1': 'Iowa State', 'School 2': 'Ohio St./Alabama'})
+    csv_writer.writerow({'School 1': 'Iowa State', 'School 2': 'Ohio State/Alabama'})
     csv_writer.writerow({'School 1': 'Florida State', 'School 2': 'Belmont'})
     csv_writer.writerow({'School 1': 'Wisconsin', 'School 2': 'New Mexico St.'})
 
