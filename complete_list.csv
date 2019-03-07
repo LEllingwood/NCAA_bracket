@@ -1,69 +1,67 @@
-Conference,Location Rank,School,Unique Id,Mascot Rank,Colors,Location,Color Rank,NCAA Rank,Mascot
-West,2,Gonzaga, ,1,Blue / Red,"Spokane, Washington",2,1,Bulldogs
-East,3,Duke, ,4,Blue / Dark Blue,"Durham, North Carolina",2,1,Blue Devils
-South,3,Virginia, ,5,Blue / Orange,"Charlottesville, Virginia",2,1,Cavaliers
-Midwest,2,Kentucky, ,1,Blue / White,"Lexington, Kentucky",3,1,Wildcats
-South,4,Tennessee, ,5,Orange / White,"Knoxville, Tennessee",3,2,Volunteers
-Midwest,2,North Carolina, ,5,Light Blue / White,"Chapel Hill, North Carolina",4,2,Tar Heels
-East,5,Michian State, ,5,Green / White,"East Lansing, Michigan",5,2,Spartans
-West,1,Michigan, ,1,Blue / Yellow,"Ann Arbor, Michigan",2,2,Wolverines
-Midwest,2,Houston, ,2,Red / Dark Red,"Houston, Texas",4,3,Cougars
-South,5,Purdue, ,4,Black / Gold,"West Lafayette, Indiana",3,3,Boilermaker
-East,5,Marquette, ,3,Blue / Yellow,"Milwaukee, Wisconsin",2,3,Golden Eagles
-West,5,Kansas, ,4,Blue / Red,"Lawrence, Kansas",2,3,Jayhawks
-West,3,LSU, ,2,Purple / Gold,"Baton Rouge, Louisiana",1,4,Tigers
-Midwest,4,Maryland, ,5,Red / Gold,"College Park, Maryland",4,4,Terrapin
-South,4,Texas Tech, ,5,Red / Black,"Lubbock, Texas",3,4,Red Raiders
-East,3,Nevada, ,1,Blue / Grey,"Reno, Nevada",2,4,Wolf Pack
-Midwest,5,Kansas State, ,1,Purple / Grey,"Manhattan, Kansas",1,5,Wildcats
-East,4,Iowa State, ,5,Red / Gold,"Ames, Iowa",5,5,Cyclones
-West,4,Florida State, ,5,Red / Gold,"Tallahassee, Florida",5,5,Seminoles
-South,5,Wisconsin, ,2,Red / Dark Red,"Madison, Wisconsin",4,5,Badgers
-East,3,Virginia Tech, ,5,Red / Orange,"Blacksburg, Virginia",3,6,Hokies
-Midwest,3,Iowa, ,2,Black / Gold,"Iowa City, Iowa",3,6,Hawkeyes
-South,5,Cincinnati, ,3,Red / Black,"Cincinnati, Ohio",3,6,Bearcats
-West,5,Buffalo, ,3,Blue / White,"Buffalo, New York",4,6,Bulls
-West,1,Washington, ,1,Purple / Gold,"Seattle, Washington",1,7,Huskies
-East,5,Baylor, ,4,Green / Gold,"Waco, Texas",5,7,Bears
-Midwest,4,Villanova, ,1,Blue / Light Blue,"Villanova, Pennsylvania",4,7,Wildcats
-South,3,Syracuse, ,5,Orange / Grey,"Syracuse, New York",1,7,Orange
-South,5,Mississippi State, ,1,Red / White,"Starkville, Mississippi",5,8,Bulldogs
-Midwest,3,Louisville, ,3,Black / Red,"Louisville, Kentucky",3,8,Cardinals
-West,1,St. John's, ,5,Red / Blue,"New York City, New York",2,8,Red Storm
-East,5,Ole Miss, ,5,Red / Blue,"Oxford, Mississippi",2,8,Rebels
-Midwest,5,Oklahoma, ,5,Red / Cream,"Norman, Oklahoma",4,9,Sooners
-West,2,NC State, ,1,Red / Black,"Raleigh, North Carolina",3,9,Wolfpack
-East,2,VCU, ,3,Black / Gold,"Richmond, Virginia",3,9,Rams
-South,4,Temple, ,3,Red / Yellow,"Philadelphia, Pennsylvania",5,9,Owls
-East,3,UCF, ,5,Black / Gold,"Orlando, Florida",3,10,Knights
-Midwest,3,TCU, ,2,Purple / White,"Fort Worth, Texas",2,10,Horned Frogs
-West,3,Wofford, ,4,Black / Gold,"Spartanburg, South Carolina",3,10,Terriers
-South,1,Texas, ,2,Orange / Grey,"Austin, Texas",1,10,Longhorns
-West,5,Florida, ,2,Blue / Orange,"Gainesville, Florida",1,11,Gators
-Midwest,2,Arizona State, ,4,Red / Gold,"Tempe, Arizona",5,11,Sun Devils
-South,5,Seton Hall, ,5,Blue / Grey,"Newark, New Jersey",1,11,Pirates
-East,5,Minnesota, ,2,Red / Yellow,"Minneapolis, Minnesota",5,11,Golden Gophers
-East,4,Ohio State, ,4,Red / Grey,"Columbus, Ohio",3,12,Buckeyes
-East,5,Alabama, ,5,Red / Grey,"Tuscaloosa, Alabama",3,12,Crimson Tide
-Midwest,5,Auburn, ,1,Blue / Orange,"Auburn, Alabama",1,12,Tigers
-Midwest,3,Clemson, ,1,Orange / Purple,"Clemson, South Carolina",1,12,Tigers
-West,2,Belmont, ,5,Blue / Red,"Nashville, Tennessee",2,12,Bruins
-South,2,New Mexico State, ,4,Red / White,"Las Cruces, New Mexico",5,12,Aggies
-West,2,Lipscomb, ,3,Purple / Gold,"Nashville, Tennessee",1,13,Bisons
-Midwest,3,Hofstra, ,3,Blue / Gold,"Hempstead, New York",2,13,Pride
-East,3,Yale, ,1,Blue / White,"New Haven, Connecticut",5,13,Bulldogs
-South,3,Old Dominion, ,5,Blue / Grey,"Norfolk, Virginia",1,13,Monarchs
-East,3,Vermont, ,5,Green / Gold,"Burlington, Vermont",5,14,Catamounts
-Midwest,1,UC Irvine, ,1,Blue / Gold,"Irvine, California",2,14,Anteaters
-South,4,South Dakota State, ,2,Blue / Yellow,"Brookings, South Dakota",2,14,Jackrabbits
-West,2,Montana, ,3,Red / Grey,"Missoula, Montana",3,14,Grizzles
-West,4,Texas State, ,1,Red / Gold,"San Marcos, Texas",5,15,Bobcats
-East,4,Wright State, ,5,Green / Gold,"Fairborn, Ohio",5,15,Raiders
-Midwest,4,Loyola-Chicago, ,5,Red / Gold,"Chicago, Illinois",5,15,Ramblers
-South,3,Radford, ,4,Red / White,"Radford, Virginia",5,15,Highlanders
-East,4,Bucknell, ,3,Red / White,"Lewisburg, Pennsylvania",5,16,Bison
-West,3,Sam Houston State, ,2,Orange / White,"Huntsville, Texas",3,16,Bearkats
-Midwest,5,Prairie View, ,1,Purple / Gold,"Prairie View, Texas",2,16,Panthers
-Midwest,4,Norfolk State, ,5,Green / Gold,"Norfolk, Virginia",5,16,Spartans
-South,5,St. Francis PA, ,5,Red / White,"Loretta, Pennslyvania",5,16,Red Flash
-South,3,Iona, ,4,Red / Gold,"New Rochelle, NY",5,16,Gaels
+Unique Id,School,NCAA Rank,Conference,Location,Location Rank,Colors,Color Rank,Mascot,Mascot Rank
+1,Gonzaga,1,West,"Spokane, Washington",4,Blue / Red,4,Bulldogs,5
+2,Duke,1,East,"Durham, North Carolina",3,Blue / Dark Blue,4,Blue Devils,2
+3,Virginia,1,South,"Charlottesville, Virginia",3,Blue / Orange,4,Cavaliers,1
+4,Kentucky,1,Midwest,"Lexington, Kentucky",4,Blue / White,3,Wildcats,5
+5,Tennessee,2,South,"Knoxville, Tennessee",2,Orange / White,3,Volunteers,1
+6,North Carolina,2,Midwest,"Chapel Hill, North Carolina",4,Light Blue / White,2,Tar Heels,1
+7,Michian State,2,East,"East Lansing, Michigan",1,Green / White,1,Spartans,1
+8,Michigan,2,West,"Ann Arbor, Michigan",5,Blue / Yellow,4,Wolverines,5
+9,Houston,3,Midwest,"Houston, Texas",4,Red / Dark Red,2,Cougars,4
+10,Purdue,3,South,"West Lafayette, Indiana",1,Black / Gold,3,Boilermaker,2
+11,Marquette,3,East,"Milwaukee, Wisconsin",1,Blue / Yellow,4,Golden Eagles,3
+12,Kansas,3,West,"Lawrence, Kansas",1,Blue / Red,4,Jayhawks,2
+13,LSU,4,West,"Baton Rouge, Louisiana",3,Purple / Gold,5,Tigers,4
+14,Maryland,4,Midwest,"College Park, Maryland",2,Red / Gold,2,Terrapin,1
+15,Texas Tech,4,South,"Lubbock, Texas",2,Red / Black,3,Red Raiders,1
+16,Nevada,4,East,"Reno, Nevada",3,Blue / Grey,4,Wolf Pack,5
+17,Kansas State,5,Midwest,"Manhattan, Kansas",1,Purple / Grey,5,Wildcats,5
+18,Iowa State,5,East,"Ames, Iowa",2,Red / Gold,1,Cyclones,1
+19,Florida State,5,West,"Tallahassee, Florida",2,Red / Gold,1,Seminoles,1
+20,Wisconsin,5,South,"Madison, Wisconsin",1,Red / Dark Red,2,Badgers,4
+21,Virginia Tech,6,East,"Blacksburg, Virginia",3,Red / Orange,3,Hokies,1
+22,Iowa,6,Midwest,"Iowa City, Iowa",3,Black / Gold,3,Hawkeyes,4
+23,Cincinnati,6,South,"Cincinnati, Ohio",1,Red / Black,3,Bearcats,3
+24,Buffalo,6,West,"Buffalo, New York",1,Blue / White,2,Bulls,3
+25,Washington,7,West,"Seattle, Washington",5,Purple / Gold,5,Huskies,5
+26,Baylor,7,East,"Waco, Texas",1,Green / Gold,1,Bears,2
+27,Syracuse,7,South,"Syracuse, New York",3,Orange / Grey,5,Orange,1
+28,Mississippi State,8,South,"Starkville, Mississippi",1,Red / White,1,Bulldogs,5
+29,Louisville,8,Midwest,"Louisville, Kentucky",3,Black / Red,3,Cardinals,3
+30,St. John's,8,West,"New York City, New York",5,Red / Blue,4,Red Storm,1
+31,Ole Miss,8,East,"Oxford, Mississippi",1,Red / Blue,4,Rebels,1
+32,Oklahoma,9,Midwest,"Norman, Oklahoma",1,Red / Cream,2,Sooners,1
+33,NC State,9,West,"Raleigh, North Carolina",4,Red / Black,3,Wolfpack,5
+34,Temple,9,South,"Philadelphia, Pennsylvania",2,Red / Yellow,1,Owls,3
+35,UCF,10,East,"Orlando, Florida",3,Black / Gold,3,Knights,1
+36,TCU,10,Midwest,"Fort Worth, Texas",3,Purple / White,4,Horned Frogs,4
+37,Wofford,10,West,"Spartanburg, South Carolina",3,Black / Gold,3,Terriers,2
+38,Texas,10,South,"Austin, Texas",5,Orange / Grey,5,Longhorns,4
+39,Florida,11,West,"Gainesville, Florida",1,Blue / Orange,5,Gators,4
+40,Arizona State,11,Midwest,"Tempe, Arizona",4,Red / Gold,1,Sun Devils,2
+41,Seton Hall,11,South,"Newark, New Jersey",1,Blue / Grey,5,Pirates,1
+42,Minnesota,11,East,"Minneapolis, Minnesota",1,Red / Yellow,1,Golden Gophers,2
+43,Ohio State,12,East,"Columbus, Ohio",2,Red / Grey,3,Buckeyes,2
+44,Alabama,12,East,"Tuscaloosa, Alabama",1,Red / Grey,3,Crimson Tide,1
+45,Auburn,12,Midwest,"Auburn, Alabama",1,Blue / Orange,5,Tigers,5
+46,Clemson,12,Midwest,"Clemson, South Carolina",3,Orange / Purple,5,Tigers,5
+47,Belmont,12,West,"Nashville, Tennessee",4,Blue / Red,4,Bruins,1
+48,New Mexico State,12,South,"Las Cruces, New Mexico",4,Red / White,1,Aggies,2
+49,Lipscomb,13,West,"Nashville, Tennessee",4,Purple / Gold,5,Bisons,3
+50,Hofstra,13,Midwest,"Hempstead, New York",3,Blue / Gold,4,Pride,3
+51,Yale,13,East,"New Haven, Connecticut",3,Blue / White,1,Bulldogs,5
+52,Old Dominion,13,South,"Norfolk, Virginia",3,Blue / Grey,5,Monarchs,1
+53,Vermont,14,East,"Burlington, Vermont",3,Green / Gold,1,Catamounts,1
+54,UC Irvine,14,Midwest,"Irvine, California",5,Blue / Gold,4,Anteaters,5
+55,South Dakota State,14,South,"Brookings, South Dakota",2,Blue / Yellow,4,Jackrabbits,4
+56,Montana,14,West,"Missoula, Montana",4,Red / Grey,3,Grizzles,3
+57,Texas State,15,West,"San Marcos, Texas",2,Red / Gold,1,Bobcats,5
+58,Wright State,15,East,"Fairborn, Ohio",2,Green / Gold,1,Raiders,1
+59,Loyola-Chicago,15,Midwest,"Chicago, Illinois",2,Red / Gold,1,Ramblers,1
+60,Radford,15,South,"Radford, Virginia",3,Red / White,1,Highlanders,2
+61,Bucknell,16,East,"Lewisburg, Pennsylvania",2,Red / White,1,Bison,3
+62,Sam Houston State,16,West,"Huntsville, Texas",3,Orange / White,3,Bearkats,4
+63,Prairie View,16,Midwest,"Prairie View, Texas",1,Purple / Gold,4,Panthers,5
+64,Norfolk State,16,Midwest,"Norfolk, Virginia",2,Green / Gold,1,Spartans,1
+65,St. Francis PA,16,South,"Loretta, Pennslyvania",1,Red / White,1,Red Flash,1
+66,Iona,16,South,"New Rochelle, NY",3,Red / Gold,1,Gaels,2
