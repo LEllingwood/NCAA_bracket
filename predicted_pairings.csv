@@ -1,33 +1,33 @@
-School 2,School 1
-Sam Houston St.,Gonzaga
-Bucknell,Duke
-St. Francis/Iona,Virginia
-Prairie View/Norfolk St.,Kentucky
-Radford,Tennessee
-Loyola-Chicago,North Carolina
-Wright State,Michigan State
-Texas State,Michigan
-UC Irvine,Houston
-S. Dakota St.,Purdue
-Vermont,Marquette
-Montana,Kansas
-Lipscomb,LSE
-Hofstra,Maryland
-Old Dominion,Texas Tech
-Yale,Nevada
-Auburn/Clemson,Kansas State
-Ohio St./Alabama,Iowa State
-Belmont,Florida State
-New Mexico St.,Wisconsin
-Minnesota,Virginia Tech
-Arizona St.,Iowa
-Seton Hall,Cincinnati
-Florida,Buffalo
-Wofford,Washington
-UFC,Baylor
-TCU,Villanova
-Texas,Syracuse
-Temple,Mississippi State
-Oklahoma,Louisville
-NC St.,St. John's
-VCU,Ole Miss
+Conference,School 1,School 2
+West,Gonzaga,Sam Houston State
+West,St. John's,NC State
+West,Florida State,Belmont
+West,LSU,Lipscomb
+West,Buffalo,Florida
+West,Kansas,Montana
+West,Washington,Wofford
+West,Michigan,Texas State
+Midwest,Kentucky,Prairie View/Norfolk State
+Midwest,Louisville,Oklahoma
+Midwest,Kansas State,Auburn/Clemson
+Midwest,Maryland,Hofstra
+Midwest,Iowa,Arizona State
+Midwest,Houston,UC Irvine
+Midwest,Villanova,TCU
+Midwest,North Carolina,Loyola-Chicago
+East,Duke,Bucknell
+East,Ole Miss,VCU
+East,Iowa State,Ohio State/Alabama
+East,Nevada,Yale
+East,Virginia Tech,Minnesota
+East,Marquette,Vermont
+East,Baylor,UFC
+East,Michigan State,Wright State
+South,Virginia,St. Francis PA/Iona
+South,Tennessee,Radford
+South,Purdue,S. Dakota St.
+South,Texas Tech,Old Dominion
+South,Wisconsin,New Mexico State
+South,Cincinnati,Seton Hall
+South,Syracuse,Texas
+South,Mississippi State,Temple
