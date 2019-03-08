@@ -42,7 +42,7 @@ with open('complete_list.csv', 'w') as complete_list:
 
     csv_writer.writerow({'School': 'Kansas', 'NCAA Rank': '3', 'Conference': 'West', 'Location': 'Lawrence, Kansas', 'Location Rank': '1', 'Colors': 'Blue / Red', 'Color Rank': '4', 'Mascot': 'Jayhawks', 'Mascot Rank': '2', 'Unique Id': next(my_counter)})
 
-    csv_writer.writerow({'School': 'LSU', 'NCAA Rank': '4', 'Conference': 'West', 'Location': 'Baton Rouge, Louisiana', 'Location Rank': '3', 'Colors': 'Purple / Gold', 'Color Rank': '5', 'Mascot': 'Tigers', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
+    csv_writer.writerow({'School': 'Louisiana State', 'NCAA Rank': '4', 'Conference': 'West', 'Location': 'Baton Rouge, Louisiana', 'Location Rank': '3', 'Colors': 'Purple / Gold', 'Color Rank': '5', 'Mascot': 'Tigers', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
 
     csv_writer.writerow({'School': 'Maryland', 'NCAA Rank': '4', 'Conference': 'Midwest', 'Location': 'College Park, Maryland', 'Location Rank': '2', 'Colors': 'Red / Gold', 'Color Rank': '2', 'Mascot':  'Terrapin', 'Mascot Rank': '1', 'Unique Id': next(my_counter)})
 
@@ -70,8 +70,8 @@ with open('complete_list.csv', 'w') as complete_list:
 
     csv_writer.writerow({'School': 'Baylor', 'NCAA Rank': '7', 'Conference': 'East', 'Location': 'Waco, Texas', 'Location Rank': '1', 'Colors': 'Green / Gold', 'Color Rank': '1', 'Mascot': 'Bears', 'Mascot Rank': '2', 'Unique Id': next(my_counter)})
 
-    # csv_writer.writerow({'School': 'Villanova', 'NCAA Rank': '7', 'Conference': 'Midwest', 'Location': 'Villanova, Pennsylvania', 'Location Rank': '2', 'Colors': 'Blue / Light Blue', 'Color Rank': '2', 'Mascot': 'Wildcats', 'Mascot Rank': '5', 'Unique Id':  next(my_counter)})
-
+    csv_writer.writerow({'School': 'Villanova', 'NCAA Rank': '7', 'Conference': 'Midwest', 'Location': 'Villanova, Pennsylvania', 'Location Rank': '2', 'Colors': 'Blue / Light Blue', 'Color Rank': '2', 'Mascot': 'Wildcats', 'Mascot Rank': '5', 'Unique Id':  next(my_counter)})
+# 
     csv_writer.writerow({'School': 'Syracuse', 'NCAA Rank': '7', 'Conference': 'South', 'Location': 'Syracuse, New York', 'Location Rank': '3', 'Colors': 'Orange / Grey', 'Color Rank': '5', 'Mascot': 'Orange', 'Mascot Rank': '1', 'Unique Id': next(my_counter)})
 
     csv_writer.writerow({'School': 'Mississippi State', 'NCAA Rank': '8', 'Conference': 'South', 'Location': 'Starkville, Mississippi', 'Location Rank': '1', 'Colors': 'Red / White', 'Color Rank': '1', 'Mascot': 'Bulldogs', 'Mascot Rank': '5', 'Unique Id': next(my_counter)})
