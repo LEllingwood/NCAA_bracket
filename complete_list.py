@@ -86,7 +86,7 @@ with open('complete_list.csv', 'w') as complete_list:
 
     csv_writer.writerow({'School': 'NC State', 'NCAA Rank': '9', 'Conference': 'West', 'Location': 'Raleigh, North Carolina', 'Location Rank': '4', 'Colors': 'Red / Black', 'Color Rank': '3', 'Mascot': 'Wolfpack', 'Mascot Rank': '5', 'Unique Id': next(my_counter)})
 
-    # csv_writer.writerow({'School': 'VCU', 'NCAA Rank': '9', 'Conference': 'East', 'Location': 'Richmond, Virginia', 'Location Rank': '4', 'Colors': 'Black / Gold', 'Color Rank': '3', 'Mascot': 'Rams', 'Mascot Rank': '3', 'Unique Id': my_counter.next()})
+    csv_writer.writerow({'School': 'VCU', 'NCAA Rank': '9', 'Conference': 'East', 'Location': 'Richmond, Virginia', 'Location Rank': '4', 'Colors': 'Black / Gold', 'Color Rank': '3', 'Mascot': 'Rams', 'Mascot Rank': '3', 'Unique Id': my_counter.next()})
 
     csv_writer.writerow({'School': 'Temple', 'NCAA Rank': '9', 'Conference': 'South', 'Location': 'Philadelphia, Pennsylvania', 'Location Rank': '2', 'Colors': 'Red / Yellow', 'Color Rank': '1', 'Mascot': 'Owls', 'Mascot Rank': '3', 'Unique Id': next(my_counter)})
 
