@@ -24,6 +24,6 @@ Team Colors: Purple, grey, orange, and blue are given higher ranks than red, gre
 
 Location: Highest ranks will be given to places I would like to visit on vacation.  This rank isn't necessarily intuitive; for instance, I would rank locations in Florida lower than Washington.
 
-MODULES: Matplotlib, csv, tabulate, itertools,requests, 
+MODULES: Matplotlib, csv, 
 
 THIS CRITERIA IS PROVEN.  I've won two NCAA bracket pools using exactly this criteria.  Good luck!
