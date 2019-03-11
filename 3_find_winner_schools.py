@@ -46,5 +46,6 @@ def main():
         sys.exit(1) 
     find_winner_schools(args.round)
 
+
 if __name__ == "__main__":
     main()
