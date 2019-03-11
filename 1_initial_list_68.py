@@ -27,7 +27,7 @@ def create_complete_list_csv():
                              'Colors': "#041E42, #C8102E", 'Color Rank': '4', 'Mascot': 'Bulldogs', 'Mascot Rank': '5', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Sam Houston State', 'NCAA Rank': '16', 'Conference': 'West', 'Location': 'Huntsville, Texas', 'Location Rank': '3',
-                             'Colors': "#D88438', #FFFFFF", 'Color Rank': '3', 'Mascot': 'Bearkats', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
+                             'Colors': "#D88438, #FFFFFF", 'Color Rank': '3', 'Mascot': 'Bearkats', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
         
         csv_writer.writerow({'School': "St. John's", 'NCAA Rank': '8', 'Conference': 'West', 'Location': 'New York City, New York', 'Location Rank': '5',
                              'Colors': "#BA0C2F, #FFFFFF", 'Color Rank': '5', 'Mascot': 'Red Storm', 'Mascot Rank': '1', 'Unique Id': next(my_counter)})
