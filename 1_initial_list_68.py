@@ -27,7 +27,7 @@ def create_complete_list_csv():
                              'Colors': "#041E42, #C8102E", 'Color Rank': '4', 'Mascot': 'Bulldogs', 'Mascot Rank': '5', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Sam Houston State', 'NCAA Rank': '16', 'Conference': 'West', 'Location': 'Huntsville, Texas', 'Location Rank': '3',
-                             'Colors': "#D88438', '#FFFFFF", 'Color Rank': '3', 'Mascot': 'Bearkats', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
+                             'Colors': "#D88438, #FFFFFF", 'Color Rank': '3', 'Mascot': 'Bearkats', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
         
         csv_writer.writerow({'School': "St. John's", 'NCAA Rank': '8', 'Conference': 'West', 'Location': 'New York City, New York', 'Location Rank': '5',
                              'Colors': "#BA0C2F, #FFFFFF", 'Color Rank': '5', 'Mascot': 'Red Storm', 'Mascot Rank': '1', 'Unique Id': next(my_counter)})
@@ -42,7 +42,7 @@ def create_complete_list_csv():
                              'Colors': "#15105b, #a01c21", 'Color Rank': '4', 'Mascot': 'Bruins', 'Mascot Rank': '1', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Louisiana State', 'NCAA Rank': '4', 'Conference': 'West', 'Location': 'Baton Rouge, Louisiana',
-                             'Location Rank': '3', 'Colors': "#fdd023', '#461D7C", 'Color Rank': '5', 'Mascot': 'Tigers', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
+                             'Location Rank': '3', 'Colors': "#FDD023, #461D7C", 'Color Rank': '5', 'Mascot': 'Tigers', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Lipscomb', 'NCAA Rank': '13', 'Conference': 'West', 'Location': 'Nashville, Tennessee', 'Location Rank': '4',
                              'Colors': "#331e54, #F4AA00", 'Color Rank': '5', 'Mascot': 'Bisons', 'Mascot Rank': '3', 'Unique Id':  next(my_counter)})
@@ -105,7 +105,7 @@ def create_complete_list_csv():
                              'Colors': "#0D368C, #F6C952", 'Color Rank': '4', 'Mascot': 'Pride', 'Mascot Rank': '3', 'Unique Id': next(my_counter)})
  
         csv_writer.writerow({'School': 'Iowa', 'NCAA Rank': '6', 'Conference': 'Midwest', 'Location': 'Iowa City, Iowa', 'Location Rank': '3',
-                             'Colors': "#FFCD00, #00000", 'Color Rank': '3', 'Mascot': 'Hawkeyes', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
+                             'Colors': "#FFCD00, #000000", 'Color Rank': '3', 'Mascot': 'Hawkeyes', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Arizona State', 'NCAA Rank': '11', 'Conference': 'Midwest', 'Location': 'Tempe, Arizona', 'Location Rank': '4',
                              'Colors': "#8c1d40, #FFC627", 'Color Rank': '1', 'Mascot': 'Sun Devils', 'Mascot Rank': '2', 'Unique Id': next(my_counter)})
@@ -159,7 +159,7 @@ def create_complete_list_csv():
                              'Colors': "#00356b, #FFFFFF", 'Color Rank': '1', 'Mascot': 'Bulldogs', 'Mascot Rank': '5', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Virginia Tech', 'NCAA Rank': '6', 'Conference': 'East', 'Location': 'Blacksburg, Virginia',
-                             'Location Rank': '3', 'Colors': "#cf4420, #63003", 'Color Rank': '3', 'Mascot': 'Hokies', 'Mascot Rank': '1', 'Unique Id': next(my_counter)})
+                             'Location Rank': '3', 'Colors': "#cf4420, #630031", 'Color Rank': '3', 'Mascot': 'Hokies', 'Mascot Rank': '1', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Minnesota', 'NCAA Rank': '11', 'Conference': 'East', 'Location': 'Minneapolis, Minnesota', 'Location Rank': '1',
                              'Colors': "#FFCC33, #7A0019", 'Color Rank': '1', 'Mascot': 'Golden Gophers', 'Mascot Rank': '2', 'Unique Id': next(my_counter)})
@@ -176,7 +176,7 @@ def create_complete_list_csv():
         csv_writer.writerow({'School': 'UCF', 'NCAA Rank': '10', 'Conference': 'East', 'Location': 'Orlando, Florida', 'Location Rank': '3',
                              'Colors': "#ceb888, #000000", 'Color Rank': '3', 'Mascot': 'Knights', 'Mascot Rank': '1', 'Unique Id': next(my_counter)})
 
-        csv_writer.writerow({'School': 'Michian State', 'NCAA Rank': '2', 'Conference': 'East', 'Location': 'East Lansing, Michigan', 'Location Rank': '1',
+        csv_writer.writerow({'School': 'Michigan State', 'NCAA Rank': '2', 'Conference': 'East', 'Location': 'East Lansing, Michigan', 'Location Rank': '1',
                              'Colors': "#FFFFFF, #18453b", 'Color Rank': '1', 'Mascot': 'Spartans', 'Mascot Rank': '1', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Wright State', 'NCAA Rank': '15', 'Conference': 'East', 'Location': 'Fairborn, Ohio', 'Location Rank': '2',
@@ -230,7 +230,7 @@ def create_complete_list_csv():
                              'Colors': "#bf5700, #333f48", 'Color Rank': '5', 'Mascot': 'Longhorns', 'Mascot Rank': '4', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Mississippi State', 'NCAA Rank': '8', 'Conference': 'South', 'Location': 'Starkville, Mississippi',
-                             'Location Rank': '1', 'Colors': "#ffffff, #660000", 'Color Rank': '1', 'Mascot': 'Bulldogs', 'Mascot Rank': '5', 'Unique Id': next(my_counter)})
+                             'Location Rank': '1', 'Colors': "#660000, #ffffff", 'Color Rank': '1', 'Mascot': 'Bulldogs', 'Mascot Rank': '5', 'Unique Id': next(my_counter)})
 
         csv_writer.writerow({'School': 'Temple', 'NCAA Rank': '9', 'Conference': 'South', 'Location': 'Philadelphia, Pennsylvania',
                              'Location Rank': '2', 'Colors': "#9D2235, #FFCD00", 'Color Rank': '1', 'Mascot': 'Owls', 'Mascot Rank': '3', 'Unique Id': next(my_counter)})
