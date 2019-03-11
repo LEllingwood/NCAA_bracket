@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # This function allows user to pick a name and get the school's unique id and prints a table view of the complete list of teams.
 def return_school_info():
-    school_name = input("Enter a team name: ")
+    school_name = input("Enter a team name: ").title()
     with open('complete_list.csv') as information:
         data = csv.reader(information)
 
@@ -22,7 +22,7 @@ def return_school_info():
                 print('Colors: ', line[6])
                 print('Mascot: ', line[8])
                 return {"school_name": line[1], "color1": line[6].split(", ")[0], "color2": line[6].split(", ")[1]}
-
+        print("No such School!  Check your spelling!")
 
 def show_color(school_info):
     fig = plt.figure()

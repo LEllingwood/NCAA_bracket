@@ -1,11 +1,11 @@
 Unique Id,School,NCAA Rank,Conference,Location,Location Rank,Colors,Color Rank,Mascot,Mascot Rank
 1,Gonzaga,1,West,"Spokane, Washington",4,"#041E42, #C8102E",4,Bulldogs,5
-2,Sam Houston State,16,West,"Huntsville, Texas",3,"#D88438', '#FFFFFF",3,Bearkats,4
+2,Sam Houston State,16,West,"Huntsville, Texas",3,"#D88438, #FFFFFF",3,Bearkats,4
 3,St. John's,8,West,"New York City, New York",5,"#BA0C2F, #FFFFFF",5,Red Storm,1
 4,NC State,9,West,"Raleigh, North Carolina",4,"#cc0000, #000000",3,Wolfpack,5
 5,Florida State,5,West,"Tallahassee, Florida",2,"#782F40, #CEB888",1,Seminoles,1
 6,Belmont,12,West,"Nashville, Tennessee",4,"#15105b, #a01c21",4,Bruins,1
-7,Louisiana State,4,West,"Baton Rouge, Louisiana",3,"#fdd023', '#461D7C",5,Tigers,4
+7,Louisiana State,4,West,"Baton Rouge, Louisiana",3,"#FDD023, #461D7C",5,Tigers,4
 8,Lipscomb,13,West,"Nashville, Tennessee",4,"#331e54, #F4AA00",5,Bisons,3
 9,Buffalo,6,West,"Buffalo, New York",1,"#005BBB, #FFFFFF",2,Bulls,3
 10,Florida,11,West,"Gainesville, Florida",1,"#0021A5, #FA4616",5,Gators,4
@@ -25,7 +25,7 @@ Unique Id,School,NCAA Rank,Conference,Location,Location Rank,Colors,Color Rank,M
 24,Clemson,12,Midwest,"Clemson, South Carolina",3,"#F56600, #522D80",5,Tigers,5
 25,Maryland,4,Midwest,"College Park, Maryland",2,"#E03a3e, #ffd520",2,Terrapin,1
 26,Hofstra,13,Midwest,"Hempstead, New York",3,"#0D368C, #F6C952",4,Pride,3
-27,Iowa,6,Midwest,"Iowa City, Iowa",3,"#FFCD00, #00000",3,Hawkeyes,4
+27,Iowa,6,Midwest,"Iowa City, Iowa",3,"#FFCD00, #000000",3,Hawkeyes,4
 28,Arizona State,11,Midwest,"Tempe, Arizona",4,"#8c1d40, #FFC627",1,Sun Devils,2
 29,Houston,3,Midwest,"Houston, Texas",4,"#C8102E, #76232F",2,Cougars,4
 30,UC Irvine,14,Midwest,"Irvine, California",5,"#0C2340, #FFC72C",4,Anteaters,5
@@ -42,13 +42,13 @@ Unique Id,School,NCAA Rank,Conference,Location,Location Rank,Colors,Color Rank,M
 41,Alabama,12,East,"Tuscaloosa, Alabama",1,"#828a8f, #9e1b32",3,Crimson Tide,1
 42,Nevada,4,East,"Reno, Nevada",3,"#003366, #807f84",4,Wolf Pack,5
 43,Yale,13,East,"New Haven, Connecticut",3,"#00356b, #FFFFFF",1,Bulldogs,5
-44,Virginia Tech,6,East,"Blacksburg, Virginia",3,"#cf4420, #63003",3,Hokies,1
+44,Virginia Tech,6,East,"Blacksburg, Virginia",3,"#cf4420, #630031",3,Hokies,1
 45,Minnesota,11,East,"Minneapolis, Minnesota",1,"#FFCC33, #7A0019",1,Golden Gophers,2
 46,Marquette,3,East,"Milwaukee, Wisconsin",1,"#003366, #ffcc00",4,Golden Eagles,3
 47,Vermont,14,East,"Burlington, Vermont",3,"#2F6F57, #F9D44C",1,Catamounts,1
 48,Baylor,7,East,"Waco, Texas",1,"#003015, #Fecb00",1,Bears,2
 49,UCF,10,East,"Orlando, Florida",3,"#ceb888, #000000",3,Knights,1
-50,Michian State,2,East,"East Lansing, Michigan",1,"#FFFFFF, #18453b",1,Spartans,1
+50,Michigan State,2,East,"East Lansing, Michigan",1,"#FFFFFF, #18453b",1,Spartans,1
 51,Wright State,15,East,"Fairborn, Ohio",2,"#FFE1A5, #CEA052",1,Raiders,1
 52,Virginia,1,South,"Charlottesville, Virginia",3,"#232d4b, #F84C1E",4,Cavaliers,1
 53,St. Francis PA,16,South,"Loretta, Pennslyvania",1,"#001DF5, #EB3323",1,Red Flash,1
@@ -65,5 +65,5 @@ Unique Id,School,NCAA Rank,Conference,Location,Location Rank,Colors,Color Rank,M
 64,Seton Hall,11,South,"Newark, New Jersey",1,"#A2AAAD, #004488",5,Pirates,1
 65,Syracuse,7,South,"Syracuse, New York",3,"#3e3d3c, #d44500",5,Orange,1
 66,Texas,10,South,"Austin, Texas",5,"#bf5700, #333f48",5,Longhorns,4
-67,Mississippi State,8,South,"Starkville, Mississippi",1,"#ffffff, #660000",1,Bulldogs,5
+67,Mississippi State,8,South,"Starkville, Mississippi",1,"#660000, #ffffff",1,Bulldogs,5
 68,Temple,9,South,"Philadelphia, Pennsylvania",2,"#9D2235, #FFCD00",1,Owls,3

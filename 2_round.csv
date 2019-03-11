@@ -1,0 +1,33 @@
+Unique Id,School,NCAA Rank,Conference,Location,Location Rank,Colors,Color Rank,Mascot,Mascot Rank,Scores
+1,Gonzaga,1,West,"Spokane, Washington",4,"#041E42, #C8102E",4,Bulldogs,5,28.0
+2,NC State,9,West,"Raleigh, North Carolina",4,"#cc0000, #000000",3,Wolfpack,5,25.75
+3,Florida State,5,West,"Tallahassee, Florida",2,"#782F40, #CEB888",1,Seminoles,1,7.25
+4,Louisiana State,4,West,"Baton Rouge, Louisiana",3,"#FDD023, #461D7C",5,Tigers,4,26.25
+5,Florida,11,West,"Gainesville, Florida",1,"#0021A5, #FA4616",5,Gators,4,24.25
+6,Montana,14,West,"Missoula, Montana",4,"#999999, #660033",3,Grizzles,3,19.75
+7,Washington,7,West,"Seattle, Washington",5,"#4B2e83, #85754d",5,Huskies,5,31.25
+8,Michigan,2,West,"Ann Arbor, Michigan",5,"#ffcb05, #00274c",4,Wolverines,5,29.0
+9,Kentucky,1,Midwest,"Lexington, Kentucky",4,"#0033a0, #FFFFFF",3,Wildcats,5,25.75
+10,Oklahoma,9,Midwest,"Norman, Oklahoma",1,"#841617, #fdf9d8",2,Sooners,1,8.5
+11,Clemson,12,Midwest,"Clemson, South Carolina",3,"#F56600, #522D80",5,Tigers,5,29.25
+12,Maryland,4,Midwest,"College Park, Maryland",2,"#E03a3e, #ffd520",2,Terrapin,1,9.5
+13,Iowa,6,Midwest,"Iowa City, Iowa",3,"#FFCD00, #000000",3,Hawkeyes,4,21.75
+14,UC Irvine,14,Midwest,"Irvine, California",5,"#0C2340, #FFC72C",4,Anteaters,5,29.0
+15,TCU,10,Midwest,"Fort Worth, Texas",3,"#4D1979, #A3A9AC",5,Horned Frogs,4,26.25
+16,Loyola-Chicago,15,Midwest,"Chicago, Illinois",2,"#530e11, #e5a92a",1,Ramblers,1,7.25
+17,Duke,1,East,"Durham, North Carolina",3,"#235f9c, #003366",4,Blue Devils,2,18.0
+18,VCU,9,East,"Richmond, Virginia",4,"#000000, #ffb300",3,Rams,3,19.75
+19,Iowa State,5,East,"Ames, Iowa",2,"#c8102e, #f1be48",1,Cyclones,1,7.25
+20,Nevada,4,East,"Reno, Nevada",3,"#003366, #807f84",4,Wolf Pack,5,27.0
+21,Minnesota,11,East,"Minneapolis, Minnesota",1,"#FFCC33, #7A0019",1,Golden Gophers,2,9.25
+22,Vermont,14,East,"Burlington, Vermont",3,"#2F6F57, #F9D44C",1,Catamounts,1,8.25
+23,Baylor,7,East,"Waco, Texas",1,"#003015, #Fecb00",1,Bears,2,9.25
+24,Wright State,15,East,"Fairborn, Ohio",2,"#FFE1A5, #CEA052",1,Raiders,1,7.25
+25,Virginia,1,South,"Charlottesville, Virginia",3,"#232d4b, #F84C1E",4,Cavaliers,1,15.0
+26,Tennessee,2,South,"Knoxville, Tennessee",2,"#ff8324, #ffffff",3,Volunteers,1,11.75
+27,South Dakota State,14,South,"Brookings, South Dakota",2,"#FFD100, #0033A0",4,Jackrabbits,4,23.0
+28,Old Dominion,13,South,"Norfolk, Virginia",3,"#92C1E9, #003057",5,Monarchs,1,17.25
+29,Wisconsin,5,South,"Madison, Wisconsin",1,"#c5050c, #9b0000",2,Badgers,4,17.5
+30,Cincinnati,6,South,"Cincinnati, Ohio",1,"#E00122, #000000",3,Bearcats,3,16.75
+31,Texas,10,South,"Austin, Texas",5,"#bf5700, #333f48",5,Longhorns,4,28.25
+32,Mississippi State,8,South,"Starkville, Mississippi",1,"#660000, #ffffff",1,Bulldogs,5,18.25
