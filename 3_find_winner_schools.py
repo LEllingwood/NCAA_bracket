@@ -28,8 +28,6 @@ def find_winner_schools(round):
                     csvwriter.writerow(row)
     return
 
-
-
 def create_parser():
     """Create a cmd line parser object with 2 argument definitions"""
     parser = argparse.ArgumentParser()

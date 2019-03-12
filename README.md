@@ -28,4 +28,6 @@ Location: Highest ranks will be given to places I would like to visit on vacatio
 
 MODULES: Matplotlib, csv, tabulate, argparse ...
 
+TAKE AWAYS: Argparse, Ordered Dict. 
+
 THIS CRITERIA IS PROVEN.  I've won two NCAA bracket pools using exactly this criteria.  Good luck!
