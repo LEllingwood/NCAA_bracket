@@ -40,8 +40,6 @@ def show_color(school_info):
     plt.ylim([-10, 60])
     plt.show()
 
-# show_color(school_name, '#2D0962', '#F8CD46')
-
 
 if __name__ == "__main__":
 
