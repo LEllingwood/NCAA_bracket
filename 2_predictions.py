@@ -37,7 +37,6 @@ def find_final_64(schools_info_file, prelim_schools):
     return
 
 
-
 def calc_overal_score_per_school(rank_list):
     location_score = rank_list[0]
     color_score = rank_list[1]
